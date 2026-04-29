@@ -8,8 +8,8 @@
 
 | 版本 | 状态 |
 |------|------|
-| 4.0.0 | ✅ 当前稳定版 |
-| < 4.0.0 | ❌ 不再维护 |
+| 4.1.0 | ✅ 当前稳定版 |
+| < 4.1.0 | ❌ 不再维护 |
 
 ---
 
@@ -19,10 +19,7 @@
 
 **请不要**通过公开的 GitHub Issues 报告安全问题。
 
-以下方式任选其一：
-
-1. **GitHub 私人消息**：联系项目维护者
-2. **邮件**：发送至 security@example.com
+请通过 [GitHub 安全公告页面](https://github.com/kscz0000/Batch-Translation-of-Skills/security/advisories) 私下报告安全问题。
 
 ### 2.2 报告内容
 
@@ -110,18 +107,10 @@ safety check
 
 ## 六、版本历史
 
-### 4.0.0 (2026-04-28)
-- 初始开源版本
-- 包含敏感信息安全加固
-
----
-
-## 七、联系方式
-
-安全相关问题请联系：
-
-- GitHub Issues（私人）：https://github.com/kscz0000/Batch-Translation-of-Skills/issues
-- 安全邮箱：security@example.com
+### 4.1.0 (2026-04-29)
+- 支持多语言翻译（英/中/日/韩）
+- 添加 LICENSE 和 Third-Party-Notices
+- 完善开源合规文档
 
 ---
 

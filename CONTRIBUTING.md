@@ -2,7 +2,7 @@
 
 感谢您对本项目的兴趣！我们欢迎各种形式的贡献。
 
----
+***
 
 ## 一、开发环境设置
 
@@ -37,7 +37,7 @@ cp .env.example .env
 # 编辑 .env 填入你的 API keys
 ```
 
----
+***
 
 ## 二、安全开发规范
 
@@ -45,13 +45,13 @@ cp .env.example .env
 
 **绝对禁止**在代码中硬编码任何敏感信息：
 
-| 禁止类型 | 正确做法 |
-|---------|---------|
-| API Key | 使用环境变量 `os.getenv('API_KEY')` |
-| 数据库密码 | 使用环境变量或密钥管理服务 |
-| 个人路径 | 使用相对路径或 `os.getenv('BASE_PATH')` |
-| 访问令牌 | 使用环境变量 |
-| 私钥 | 绝不提交，使用密钥管理服务 |
+| 禁止类型    | 正确做法                             |
+| ------- | -------------------------------- |
+| API Key | 使用环境变量 `os.getenv('API_KEY')`    |
+| 数据库密码   | 使用环境变量或密钥管理服务                    |
+| 个人路径    | 使用相对路径或 `os.getenv('BASE_PATH')` |
+| 访问令牌    | 使用环境变量                           |
+| 私钥      | 绝不提交，使用密钥管理服务                    |
 
 ### 2.2 提交前检查清单
 
@@ -63,15 +63,7 @@ cp .env.example .env
 - [ ] 未包含个人联系方式（邮箱、电话等）
 - [ ] 所有敏感配置使用环境变量
 
-### 2.3 发现敏感信息泄露
-
-如果您发现代码中存在敏感信息泄露，请：
-
-1. **不要**在公开 Issue 中提及具体敏感信息
-2. 发送邮件至 security@example.com 或通过私人消息联系维护者
-3. 我们会在 24 小时内确认并在 72 小时内修复
-
----
+***
 
 ## 三、代码规范
 
@@ -91,12 +83,12 @@ flake8 .
 
 ### 3.2 命名规范
 
-| 类型 | 规范 | 示例 |
-|------|------|------|
-| 模块 | 小写下划线 | `file_manager.py` |
-| 类 | 大驼峰 | `BatchTranslator` |
-| 函数 | 小写下划线 | `translate_single` |
-| 常量 | 全大写下划线 | `MAX_RETRIES` |
+| 类型 | 规范     | 示例                 |
+| -- | ------ | ------------------ |
+| 模块 | 小写下划线  | `file_manager.py`  |
+| 类  | 大驼峰    | `BatchTranslator`  |
+| 函数 | 小写下划线  | `translate_single` |
+| 常量 | 全大写下划线 | `MAX_RETRIES`      |
 
 ### 3.3 文档字符串
 
@@ -116,7 +108,7 @@ def translate(content: str) -> str:
     pass
 ```
 
----
+***
 
 ## 四、测试
 
@@ -132,7 +124,7 @@ pytest tests/
 - 使用 `pytest` 框架
 - 测试文件命名：`test_<module_name>.py`
 
----
+***
 
 ## 五、提交规范
 
@@ -145,6 +137,7 @@ pytest tests/
 ```
 
 类型：
+
 - `feat`: 新功能
 - `fix`: 修复 bug
 - `docs`: 文档更新
@@ -153,6 +146,7 @@ pytest tests/
 - `chore`: 构建/工具更新
 
 示例：
+
 ```
 feat: 添加多语言翻译支持
 
@@ -163,12 +157,12 @@ feat: 添加多语言翻译支持
 ### 5.2 Pull Request
 
 1. Fork 本仓库
-2. 创建特性分支 `git checkout -b feature/your-feature`
+2. 创建特性分支 `git checkout -b feature/my-feature`
 3. 提交更改
-4. 推送分支 `git push origin feature/your-feature`
+4. 推送分支 `git push origin feature/my-feature`
 5. 创建 Pull Request
 
----
+***
 
 ## 六、问题反馈
 
@@ -180,19 +174,12 @@ feat: 添加多语言翻译支持
 
 请使用 GitHub Issues，标签选择 `enhancement`。
 
-### 6.3 安全问题
-
-请通过以下方式私下联系：
-
-- GitHub 私人消息
-- 邮件至 security@example.com
-
----
+***
 
 ## 七、许可证
 
 通过贡献代码，您同意将您的贡献按照项目许可证发布。
 
----
+***
 
 *最后更新：2026-04-28*
