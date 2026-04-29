@@ -127,8 +127,6 @@ batch_translator/
 ├── models.py            # 数据模型
 ├── exceptions.py        # 异常定义
 ├── utils.py             # 工具函数
-├── retry.py             # 重试机制
-├── ARCHITECTURE.md      # 架构文档（设计模式、流程图、扩展指南）
 └── services/
     ├── base.py          # 翻译服务基类
     ├── factory.py       # 服务工厂（策略模式）

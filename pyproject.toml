@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "batch-translator"
+version = "4.1.0"
+description = "批量翻译技能文档的多语言翻译工具"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "kscz0000", email = "https://github.com/kscz0000"}
+]
+keywords = ["translation", "batch", "multilingual", "skills", "ai"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.optional-dependencies]
+openai = ["openai>=1.0.0"]
+anthropic = ["anthropic>=0.18.0"]
+all = ["openai>=1.0.0", "anthropic>=0.18.0"]
+
+[project.urls]
+Homepage = "https://github.com/kscz0000/Batch-Translation-of-Skills"
+Documentation = "https://github.com/kscz0000/Batch-Translation-of-Skills#readme"
+Repository = "https://github.com/kscz0000/Batch-Translation-of-Skills"
+Issues = "https://github.com/kscz0000/Batch-Translation-of-Skills/issues"
+
+[project.scripts]
+batch-translator = "batch_translator.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["batch_translator*"]
+
+[tool.setuptools.package-data]
+batch_translator = ["py.typed"]
