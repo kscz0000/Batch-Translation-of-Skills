@@ -47,4 +47,4 @@ where = ["."]
 include = ["batch_translator*"]
 
 [tool.setuptools.package-data]
-batch_translator = ["py.typed"]
+batch_translator = []
