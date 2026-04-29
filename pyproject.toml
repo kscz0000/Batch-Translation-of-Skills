@@ -9,7 +9,7 @@ description = "批量翻译技能文档的多语言翻译工具"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "kscz0000", email = "https://github.com/kscz0000"}
+    {name = "kscz0000", email = "kscz0000@users.noreply.github.com"}
 ]
 keywords = ["translation", "batch", "multilingual", "skills", "ai"]
 classifiers = [
@@ -30,7 +30,8 @@ dependencies = [
 [project.optional-dependencies]
 openai = ["openai>=1.0.0"]
 anthropic = ["anthropic>=0.18.0"]
-all = ["openai>=1.0.0", "anthropic>=0.18.0"]
+minimax = ["minimax>=0.1.0"]
+all = ["openai>=1.0.0", "anthropic>=0.18.0", "minimax>=0.1.0"]
 
 [project.urls]
 Homepage = "https://github.com/kscz0000/Batch-Translation-of-Skills"
