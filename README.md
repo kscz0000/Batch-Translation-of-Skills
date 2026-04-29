@@ -166,3 +166,5 @@ batch_translator/
 MINIMAX_API_KEY=$YOUR_MINIMAX_API_KEY
 MINIMAX_MODEL=MiniMax-M2.7-HighSpeed
 ```
+
+> 💡 MiniMax 有优惠套餐：https://platform.minimaxi.com/subscribe/token-plan?code=7UUAem0rIq&source=link
